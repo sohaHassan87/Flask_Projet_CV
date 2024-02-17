@@ -90,7 +90,7 @@ Objectif : Adapter et mettre un CV en ligne
 Difficulté : Moyenne
 ---------------------------------------------------
 Fonctionnalités attendues :  
-1° - Choisir un CV parmi les exemples proposés et faites-en votre page d'accueil.
+1° - Choisir un CV parmi les exemples proposés et faites-en votre page d'accueil.  
 2° - Adapter votre CV avec des informations pertinantes (dates d'activités, expériences, etc...).  
 3° - Proposez à l'internautes la possibilité de vous laisser un message au travers d'un formulaire de contact. Les messages seront stockés localement sur votre site dans une **BDD Sqlite**.  
 4° - Vous serez en mesure de pouvoir consulter vos messages via une API de consultation accessible au travers de la route **https://{Votre_URL}/consultation/**.  
