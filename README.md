@@ -90,13 +90,15 @@ Objectif : Adapter et mettre un CV en ligne
 Difficulté : Moyenne
 ---------------------------------------------------
 **Fonctionnalités de bases attendues :**  
-1° - Choisir un CV parmi les exemples proposés et faites-en votre page d'accueil.  
+1° - Choisir un CV parmi les exemples proposés et faites-en votre page d'accueil. C'est à dire que l'internaute sera directement dirigé sur votre CV et non sur le template d'accueil.  
 2° - Adapter votre CV avec des informations pertinantes (dates d'activités, expériences, etc...).  
+3° - Ajouter une photo à votre CV (photo anonyme).  
+4° - Proposez un formulaire de contact.  
   
 **Seulement si vous avez suivi l'atelier Flask BDD** :  
-3° - Proposez à l'internautes la possibilité de vous laisser un message au travers d'un formulaire de contact. Les messages seront stockés localement sur votre site dans une **BDD SQLite**.  
-4° - Vous serez en mesure de pouvoir consulter vos messages via une API de consultation accessible au travers de la route **https://{Votre_URL}/consultation/**  
-5° - Une page de statistiques sera également accessible depuis l'API **https://{Votre_URL}/graphique/**  
+5° - Proposez à l'internautes la possibilité de vous laisser un message au travers votre formulaire de contact. Les messages seront stockés localement sur votre site dans une **BDD SQLite**.  
+6° - Vous serez en mesure de pouvoir consulter vos messages via une API de consultation accessible au travers de la route **https://{Votre_URL}/consultation/**  
+7° - Une page de statistiques sera également accessible depuis l'API **https://{Votre_URL}/graphique/**  
 **Remarque importante :** les accès aux pages /consultation/ et /graphique/ de votre site sont protégées via une identification de votre part. Le login sera **admin** et le mot de passe sera **5625719273**  
 
 --------------------------------------------------------------------
