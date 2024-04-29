@@ -334,24 +334,22 @@
         </div>
 <div>
 	<form >
-		<fieldset>
+		<fieldset style="border: solid 2px black;">
 		<legend>Contactez moi!</legend>
-	<label for="firstname">Nom</label>	
+	<label for="firstname">Nom</label><br>	
+	<input type="text" name="name" required><br>
+
+	<label for="lastname">Prénom</label><br>
 		<input type="text" name="name" required><br>
 
-			<label for="lastname">Prénom</label>
+			<label for="mail">Adresse mail</label><br>
 		<input type="text" name="name" required><br>
 
-			<label for="mail">Adresse mail</label>
+			<label for="name">Télephone</label><br>
 		<input type="text" name="name" required><br>
+			<label for="story">Laissez moi un message</label><br>
 
-			<label for="name">Télephone</label>
-		<input type="text" name="name" required><br>
-			<label for="story">Laissez moi un message</label>
-
-			<textarea id="story" name="story">
-It was a dark and stormy night...
-</textarea>
+			<textarea id="story" name="story"></textarea>
 
 		</fieldset>
 	</form>
